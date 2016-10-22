@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Origin Trial Token, feature = Web Bluetooth, origin = https://mikeheavers.com, expires = 2016-10-31 -->
+    <meta http-equiv="origin-trial" data-feature="Web Bluetooth" data-expires="2016-10-31" content="AmT0R98MTld+3iF0whSpEm8OYOuQhVSuuvq2smYi2naTvVcLNytS//O1OfnSYcFCjGlkflwETm6ACMOP0aMM5gEAAABaeyJvcmlnaW4iOiAiaHR0cHM6Ly9taWtlaGVhdmVycy5jb206NDQzIiwgImZlYXR1cmUiOiAiV2ViQmx1ZXRvb3RoIiwgImV4cGlyeSI6IDE0Nzc5Mjg3MTV9">
+    <title>Web Bluetooth | Params</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+  <input id="service" type="text" list="services" autofocus="" placeholder="Bluetooth Service">
+  <input id="name" type="text" placeholder="Device Name">
+  <input id="namePrefix" type="text" placeholder="Device Name Prefix">
+  <button>Get Bluetooth Device Info</button>
+
+  <pre id="log">Requesting Bluetooth Device...
+Argh! NotFoundError: User cancelled the requestDevice() chooser.
+</pre>
+
+<script src="main.js"></script>
+</body>
+</html>
